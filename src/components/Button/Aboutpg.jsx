@@ -1,0 +1,36 @@
+import React from "react";
+import img from "../../assets/images/IMG_20160927_141342219.jpg";
+
+export const Aboutpg = () => {
+  return (
+    <div className="h-screen">
+      <div className="flex flex-wrap">
+        <div className="w-full sm:w-1/2 p-10 md:p-32">
+          <h1 className="text-5xl font-bold text-center md:text-left min-[320px]:text-center max-[600px]:text-lg">
+            About Us
+          </h1>
+          <br />
+          <p className="text-sm min-[320px]: max-[600px]:text-sm">
+            We are a manufacturing company that specializes in producing
+            high-quality motorized rolling shutters, rolling shutter gears,
+            shutter gates, and collapsible gates. Our company was established in
+            1974, and since then, we have been supplying our products to
+            customers across Karnataka, Goa, and Maharashtra states. We take
+            pride in our skilled workforce and experienced fitters who ensure
+            that every product meets the highest standards. In addition, we
+            provide generator mechanisms for our shutters, adding convenience
+            and reliability to our customers' experience. Whether it's a local
+            installation or an outstation project, our team is equipped to
+            handle it efficiently. Choose us for reliable, durable, and expertly
+            crafted rolling shutter solutions.
+          </p>
+        </div>
+        <div className="w-full sm:w-1/2 p-10 md:p-24">
+          <img src={img} className="h-full w-full object-cover" alt="About Us" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Aboutpg;

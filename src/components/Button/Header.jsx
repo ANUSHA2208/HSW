@@ -2,7 +2,11 @@ import React from "react";
 import logo from "../../assets/images/hsw.png";
 import { FaPhoneAlt } from "react-icons/fa";
 import { Carousel } from "antd";
-import img from "../../assets/images/IMG_20160927_141342219.jpg";
+import one from '../../assets/images/WhatsApp Image 2023-06-18 at 11.02.26 AM.jpeg'
+import two from '../../assets/images/WhatsApp Image 2023-06-18 at 11.02.29 AM.jpeg'
+import three from '../../assets/images/WhatsApp Image 2023-06-18 at 11.03.01 AM.jpeg'
+import four from '../../assets/images/WhatsApp Image 2023-06-18 at 11.03.02 AM.jpeg'
+
 import ScrollDown from "./ScrollDown";
 const contentStyle = {
   height: "260px",
@@ -13,7 +17,7 @@ const contentStyle = {
 };
 export const Header = () => {
   return (
-    <div className="h-screen">
+    <div className="h-full">
       <nav class="border-gray-200 bg-[#C20412] ">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-2">
           <a href="https://flowbite.com" class="flex items-center">
@@ -78,8 +82,8 @@ export const Header = () => {
           <h2 className="text-sm text-center text-gray-300 max-[600px]:text-xs">
             Hema & Daneshwari Firms
           </h2>
-          <br />
-          <p className="min-[320px]: max-[600px]:text-sm">
+        
+          <p className="min-[320px]: max-[600px]:text-sm  pt-4">
             HSW is specialized in the manufacture of various types of rolling
             products. With our expertise and commitment to quality, we provide
             small-scale solutions tailored to meet the specific needs of our
@@ -92,17 +96,17 @@ export const Header = () => {
           <Carousel autoplay className="min-[320px]:h-full max-[720px]:h-32">
             <div className="min-[320px]:h-full max-[720px]:h-32">
               <h3 style={contentStyle}>
-                <img src={img} />
+                <img src={one} />
               </h3>
             </div>
             <div className="min-[320px]:h-full max-[720px]:h-32">
-              <h3 style={contentStyle}>2</h3>
+              <h3 style={contentStyle}> <img src={two} /></h3>
             </div>
             <div className="min-[320px]:h-full max-[720px]:h-32">
-              <h3 style={contentStyle}>3</h3>
+              <h3 style={contentStyle}> <img src={three} /></h3>
             </div>
             <div className="min-[320px]:h-full max-[720px]:h-32">
-              <h3 style={contentStyle}>4</h3>
+              <h3 style={contentStyle}> <img src={four} /></h3>
             </div>
           </Carousel>
         </div>

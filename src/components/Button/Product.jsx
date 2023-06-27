@@ -1,28 +1,83 @@
 import React from "react";
 
-export const Product = () => {
+const Product = () => {
   return (
-    <div className="h-screen">
-      <div class="flex flex-col m-auto p-auto">
-        <h1 class="flex px-32 pb-10 text-5xl font-bold text-center md:text-left min-[320px]:text-center max-[600px]:text-lg">
-          Product
-        </h1>
-        <div class="flex overflow-x-scroll pb-10 hide-scroll-bar">
-          <div class="flex flex-nowrap lg:ml-20 md:ml-20 ml-4 ">
-            <div class="inline-block px-3">
-              <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
+    <div className="h-full pt-36">
+      <div>
+        <div className="text-5xl font-bold text-center md:text-left min-[320px]:text-center max-[600px]:text-lg pl-10">
+          Products
+        </div>
+        <br />
+        <div class="container p-10 flex flex-wrap m-auto align-center">
+          <div class="h-full w-full p-2 lg:w-1/3">
+            <div>
+              <article class="card">
+                <img
+                  class="card__background"
+                  src="https://i.imgur.com/QYWAcXk.jpeg"
+                  alt="Gear Operated rolling shutter"
+                  width="1920"
+                  height="2193"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title text-lg">Gear and Motor Operated rolling shutter</h2>
+                    <p class="card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Rerum in labore laudantium deserunt fugiat numquam.
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+              </article>
             </div>
-            <div class="inline-block px-3">
-              <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
+          </div>
+
+          <div class="h-full w-full p-2 lg:w-1/3">
+            <div>
+              <article class="card">
+                <img
+                  class="card__background"
+                  src="https://i.imgur.com/QYWAcXk.jpeg"
+                  alt="Collapsible Gate "
+                  width="1920"
+                  height="2193"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title text-lg">Collapsible Gates and Automatic Gates</h2>
+                    <p class="card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Rerum in labore laudantium deserunt fugiat numquam.
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+              </article>
             </div>
-            <div class="inline-block px-3">
-              <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
-            </div>
-            <div class="inline-block px-3">
-              <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
-            </div>
-            <div class="inline-block px-3">
-              <div class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
+          </div>
+
+          <div class="h-full w-full p-2 lg:w-1/3">
+            <div>
+              <article class="card">
+                <img
+                  class="card__background"
+                  src="https://i.imgur.com/QYWAcXk.jpeg"
+                  alt="Shutter Gates"
+                  width="1920"
+                  height="2193"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title text-lg">Shutter Gates</h2>
+                    <p class="card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Rerum in labore laudantium deserunt fugiat numquam.
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+              </article>
             </div>
           </div>
         </div>

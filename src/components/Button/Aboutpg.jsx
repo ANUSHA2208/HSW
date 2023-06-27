@@ -3,14 +3,14 @@ import img from "../../assets/images/IMG_20160927_141342219.jpg";
 
 export const Aboutpg = () => {
   return (
-    <div className="h-screen">
-      <div className="flex flex-wrap">
-        <div className="w-full sm:w-1/2 p-10 md:p-32">
+    <div className="h-full">
+      <div className="flex flex-wrap pt-36">
+        <div className="w-full sm:w-1/2 p-10">
           <h1 className="text-5xl font-bold text-center md:text-left min-[320px]:text-center max-[600px]:text-lg">
             About Us
           </h1>
           <br />
-          <p className="text-sm min-[320px]: max-[600px]:text-sm">
+          <p className="text-lg min-[1024px]:text-lg max-[600px]:text-sm">
             We are a manufacturing company that specializes in producing
             high-quality motorized rolling shutters, rolling shutter gears,
             shutter gates, and collapsible gates. Our company was established in

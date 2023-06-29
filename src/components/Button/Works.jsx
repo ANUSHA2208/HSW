@@ -1,4 +1,8 @@
 import React from "react";
+import w1 from "../../assets/images/WhatsApp Video 2023-06-18 at 11.05.32 AM.gif";
+import w2 from "../../assets/images/WhatsApp Video 2023-06-18 at 11.02.58 AM.gif";
+import w3 from '../../assets/images/shutter.jpeg';
+import w4 from '../../assets/images/gear.jpeg';
 
 const Works = () => {
   return (
@@ -10,65 +14,64 @@ const Works = () => {
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div>
           <figure>
-            <img src="https://picsum.photos/id/287/250/300" alt="Mountains" />
+            <img src={w1} alt="Mountains" />
+            <figcaption>Automatic Rolling Shutter</figcaption>
+          </figure>
+        </div>
+
+        <div>
+          <figure>
+            <img src={w2} alt="Mountains" />
             <figcaption>The Day</figcaption>
           </figure>
         </div>
 
         <div>
           <figure>
-            <img src="https://picsum.photos/id/287/250/300" alt="Mountains" />
+            <img src={w3} alt="Mountains" />
             <figcaption>The Day</figcaption>
           </figure>
         </div>
 
         <div>
           <figure>
-            <img src="https://picsum.photos/id/287/250/300" alt="Mountains" />
+            <img src={w4} alt="Mountains" />
+            <figcaption>The Day</figcaption>
+          </figure>
+        </div>
+
+      <div>
+          <figure>
+            <img src={w1} alt="Mountains" />
             <figcaption>The Day</figcaption>
           </figure>
         </div>
 
         <div>
           <figure>
-            <img src="https://picsum.photos/id/287/250/300" alt="Mountains" />
+            <img src={w2} alt="Mountains" />
             <figcaption>The Day</figcaption>
           </figure>
         </div>
 
         <div>
           <figure>
-            <img src="https://picsum.photos/id/287/250/300" alt="Mountains" />
+            <img src={w3} alt="Mountains" />
             <figcaption>The Day</figcaption>
           </figure>
         </div>
 
         <div>
           <figure>
-            <img src="https://picsum.photos/id/287/250/300" alt="Mountains" />
+            <img src={w4} alt="Mountains" />
             <figcaption>The Day</figcaption>
           </figure>
         </div>
-
-        <div>
-          <figure>
-            <img src="https://picsum.photos/id/287/250/300" alt="Mountains" />
-            <figcaption>The Day</figcaption>
-          </figure>
-        </div>
-
-        <div>
-          <figure>
-            <img src="https://picsum.photos/id/287/250/300" alt="Mountains" />
-            <figcaption>The Day</figcaption>
-          </figure>
-        </div>
-
       </div>
-      
+
       <button class="button-36" role="button">
-          View More
-        </button>
+        View More
+      </button>
     </div>
   );
 };

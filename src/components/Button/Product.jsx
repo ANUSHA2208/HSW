@@ -1,4 +1,7 @@
 import React from "react";
+import col from '../../assets/images/collapsible.jpeg'
+import shutter from '../../assets/images/shutter.jpeg'
+import gear from '../../assets/images/gear.jpeg'
 
 const Product = () => {
   return (
@@ -14,17 +17,16 @@ const Product = () => {
               <article class="card">
                 <img
                   class="card__background"
-                  src="https://i.imgur.com/QYWAcXk.jpeg"
+                  src={gear}
                   alt="Gear Operated rolling shutter"
-                  width="1920"
+                  width="1950"
                   height="2193"
                 />
                 <div class="card__content | flow">
                   <div class="card__content--container | flow">
-                    <h2 class="card__title text-lg">Gear and Motor Operated rolling shutter</h2>
+                    <h2 class="card__title text-base font-bold">Gear and Motor Operated rolling shutter</h2>
                     <p class="card__description">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Rerum in labore laudantium deserunt fugiat numquam.
+                    Gear and motor-operated rolling shutter are secure metal slats controlled by a motor and gears for convenient operation and enhanced security.
                     </p>
                   </div>
                   <button class="card__button">Read more</button>
@@ -38,17 +40,17 @@ const Product = () => {
               <article class="card">
                 <img
                   class="card__background"
-                  src="https://i.imgur.com/QYWAcXk.jpeg"
+                  src={col}
                   alt="Collapsible Gate "
                   width="1920"
                   height="2193"
                 />
                 <div class="card__content | flow">
                   <div class="card__content--container | flow">
-                    <h2 class="card__title text-lg">Collapsible Gates and Automatic Gates</h2>
+                    <h2 class="card__title text-base font-bold">Collapsible Gates and Automatic Gates</h2>
                     <p class="card__description">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Rerum in labore laudantium deserunt fugiat numquam.
+                    Collapsible gates are retractable metal barriers for doorways. 
+                    Automatic gates are motorized gates operated by remote control or sensors.
                     </p>
                   </div>
                   <button class="card__button">Read more</button>
@@ -62,17 +64,16 @@ const Product = () => {
               <article class="card">
                 <img
                   class="card__background"
-                  src="https://i.imgur.com/QYWAcXk.jpeg"
+                  src={shutter}
                   alt="Shutter Gates"
                   width="1920"
                   height="2193"
                 />
                 <div class="card__content | flow">
                   <div class="card__content--container | flow">
-                    <h2 class="card__title text-lg">Shutter Gates</h2>
+                    <h2 class="card__title text-base font-bold">Shutter Gates</h2>
                     <p class="card__description">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Rerum in labore laudantium deserunt fugiat numquam.
+                    Shutter gates are combination of rolling shutters and security gates, providing both physical protection and visual access control for entrances.
                     </p>
                   </div>
                   <button class="card__button">Read more</button>

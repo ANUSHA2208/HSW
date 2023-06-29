@@ -6,6 +6,7 @@ import Aboutpg from "../../components/Button/Aboutpg";
 import Product from "../../components/Button/Product";
 import Works from "../../components/Button/Works";
 import Contact from "../../components/Button/Contact";
+import Swiper from "../../components/Button/Swiper";
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Product/>
       <Works/>
       <Contact/>
+
       {/* <button className={`bg-[#3498db] p-[10px] text-[white] rounded-md hover:bg-[red] hover:text-[#3498db]`} onClick={()=>{changeDir(ROUTES.About)}}>Go To About</button> */}
     </div>
   );

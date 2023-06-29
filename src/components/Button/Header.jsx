@@ -3,8 +3,8 @@ import logo from "../../assets/images/hsw.png";
 import { FaPhoneAlt } from "react-icons/fa";
 import { Carousel } from "antd";
 import one from '../../assets/images/WhatsApp Image 2023-06-18 at 11.02.26 AM.jpeg'
-import two from '../../assets/images/WhatsApp Image 2023-06-18 at 11.02.29 AM.jpeg'
-import three from '../../assets/images/WhatsApp Image 2023-06-18 at 11.03.01 AM.jpeg'
+import two from '../../assets/images/WhatsApp Image 2023-06-18 at 11.03.01 AM.jpeg'
+import three from '../../assets/images/collapsible.jpeg'
 import four from '../../assets/images/WhatsApp Image 2023-06-18 at 11.03.02 AM.jpeg'
 
 import ScrollDown from "./ScrollDown";
@@ -18,10 +18,10 @@ const contentStyle = {
 export const Header = () => {
   return (
     <div className="h-full">
-      <nav class="border-gray-200 bg-[#C20412] ">
+      <nav class="border-gray-200 bg-[#C20412] h-auto">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-2">
           <a href="https://flowbite.com" class="flex items-center">
-            <img src={logo} class="h-24 mr-3" alt="Flowbite Logo" />
+            <img src={logo} class="h-20 mr-3" alt="Flowbite Logo" />
             {/* <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Hubli Steel Works</span> */}
           </a>
           <div class="flex items-center">
